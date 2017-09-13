@@ -14,30 +14,39 @@
 
     <header>
       <nav>
-        <img class="logo" src="img/modest.png" alt="logo">
-        <ul class="nav-menu">
-          <li id="home">home</li>
-          <li>about</li>
-          <li>work</li>
-          <li>team</li>
-          <li>services</li>
-          <li>features</li>
-          <li>contact</li>
-        </ul>
+        <div class="container nav">
+          <div class="logo-wrapper">
+            <img class="logo" src="img/modest.png" alt="logo">
+          </div>
+          <ul class="nav-menu">
+            <li class="home" id="home"><a href="#">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#features">features</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+          <div class="clearfix"></div>
+        </div>
       </nav>
 
       <!-- header content START -->
-      <div class="header-img">
-        <div class="header-text">
-          <h1></h1>
-          <p></p>
-        </div>
-        <div class="header-buttons">
-          <div class="view-more-btn">
-
+      <div class="header-img" id="home">
+        <div class="container">
+          <div class="header-text">
+            <h1>welcome to our marketplace</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
           </div>
-          <div class="video-tour-btn">
-
+          <div class="header-buttons">
+            <div class="btn view-more-btn">
+              view more
+            </div>
+            <div class="btn video-tour-btn">
+              video tour
+            </div>
           </div>
         </div>
       </div>
@@ -51,7 +60,7 @@
     <main>
 
       <!-- article section START-->
-      <section class="section-1">
+      <section class="section-1" id="about">
         <div class="block-article">
           <article class="article">
             <h2>we are modest</h2>
@@ -60,8 +69,31 @@
             </p>
 
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
+
+            <div class="social-btn-wrapper">
+              <div class="social-btn-single">
+                <img src="social/fb.svg" alt="" class="social-btn">
+              </div>
+
+              <div class="social-btn-single">
+                <img src="social/twitter.svg" alt="" class="social-btn">
+              </div>
+
+              <div class="social-btn-single">
+                <img src="social/google.svg" alt="" class="social-btn">
+              </div>
+
+              <div class="social-btn-single">
+                <img src="social/drbl.svg" alt="" class="social-btn">
+              </div>
+
+              <div class="social-btn-single">
+                <img src="social/be.svg" alt="" class="social-btn">
+              </div>
+            </div>
+
 
           </article>
           <div class="features">
@@ -101,10 +133,9 @@
               </div>
             </div>
           </div>
-          <div class="social-btn">
-
-          </div>
         </div>
+        <!-- block article END -->
+
       </section>
       <!-- article section END -->
 
@@ -112,7 +143,7 @@
     <!-- container END -->
 
       <!-- first photo section START-->
-      <section class="section-2">
+      <section class="section-2" id="work">
 
     <!-- new container START -->
     <div class="container">
@@ -124,6 +155,7 @@
               <div class="lovely-work-img-info">
                 partnership guidlines
               </div>
+              <div class="plus">+</div>
             </div>
 
             <div class="img-wrapper">
@@ -131,6 +163,7 @@
               <div class="lovely-work-img-info">
                 partnership guidlines
               </div>
+              <div class="plus">+</div>
             </div>
 
             <div class="img-wrapper">
@@ -138,6 +171,7 @@
               <div class="lovely-work-img-info">
                 partnership guidlines
               </div>
+              <div class="plus">+</div>
             </div>
 
             <div class="img-wrapper">
@@ -145,6 +179,7 @@
               <div class="lovely-work-img-info">
                 partnership guidlines
               </div>
+              <div class="plus">+</div>
             </div>
 
             <div class="img-wrapper">
@@ -152,6 +187,7 @@
               <div class="lovely-work-img-info">
                 partnership guidlines
               </div>
+              <div class="plus">+</div>
             </div>
 
             <div class="img-wrapper">
@@ -159,9 +195,10 @@
               <div class="lovely-work-img-info">
                 partnership guidlines
               </div>
+                <div class="plus">+</div>
             </div>
           </div>
-          <div class="show-more-btn">
+          <div class="btn show-more-btn">
             show me more
           </div>
         </div>
@@ -173,10 +210,60 @@
       <!-- first photo section END -->
 
       <!-- features-block START-->
-      <section class="section-3">
+      <section class="section-3" id="team">
         <div class="block-what-we-do container">
           <h2>what we do</h2>
           <div class="what-we-do-features-wrapper">
+
+            <!-- FIRST line -->
+            <div class="what-we-do-blocks">
+              <img src="" alt="">
+              <h3></h3>
+              <p></p>
+            </div>
+
+            <div class="what-we-do-blocks">
+              <img src="" alt="">
+              <h3></h3>
+              <p></p>
+            </div>
+
+            <div class="what-we-do-blocks">
+              <img src="" alt="">
+              <h3></h3>
+              <p></p>
+            </div>
+
+            <div class="what-we-do-blocks">
+              <img src="" alt="">
+              <h3></h3>
+              <p></p>
+            </div>
+
+            <!-- SECOND line -->
+            <div class="what-we-do-blocks">
+              <img src="" alt="">
+              <h3></h3>
+              <p></p>
+            </div>
+
+            <div class="what-we-do-blocks">
+              <img src="" alt="">
+              <h3></h3>
+              <p></p>
+            </div>
+
+            <div class="what-we-do-blocks">
+              <img src="" alt="">
+              <h3></h3>
+              <p></p>
+            </div>
+
+            <div class="what-we-do-blocks">
+              <img src="" alt="">
+              <h3></h3>
+              <p></p>
+            </div>
 
           </div>
         </div>
@@ -187,7 +274,7 @@
 
 
       <!-- second photo section features START-->
-      <section class="section-4">
+      <section class="section-4" id="services">
         <div class="block-features container">
           <h2 id="features">features</h2>
           <div class="features-photo-wrapper">
@@ -223,6 +310,10 @@
 
       </section>
       <!-- second photo section features END -->
+
+      <footer id="contact">
+
+      </footer>
 
 
     </main>
