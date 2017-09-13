@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*general*/
+html {
+  font-size: 10px;
+}
+.container {
+  margin-left: 12%;
+  width: 1200px;
+  max-width: 85%;
+}
+/*header*/
+.header-img {
+  min-height: 665px;
+  background: url(../img/bg_pic.jpg) no-repeat top;
+  background-size: contain;
+
+}
+
+    /*nav*/
+.logo {
+  height: auto;
+  width: 100px;
+  max-width: 50%;
+}
+nav {
+  padding-top: 24px;
+  height: 80px;
+  background: black;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-menu {
+  width: 50%;
+}
+.nav-menu li {
+  list-style: none;
+  color: #fff;
+  display: inline-block;
+  margin-left: 6%;
+}
+
+
+/*article-block*/
+.section-1 {
+  margin-top: 80px;
+}
+.block-article {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.article {
+  display: block;
+  width: 50%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+}
+.features {
+  width: 50%;
+}
+.article h2 {
+  font-size: 1.4rem;
+  font-family: 'Quattrocento Sans', sans-serif;
+  text-transform: uppercase;
+  margin-left: 40px;
+}
+
+/*lovely work block*/
+.block-photo-lovely-work {
+  width: 100%;
+}
+.img-wrapper {
+  position: relative;
+  width: 30%;
+  margin: 35px 30px 0 0;
+}
+.lovely-work-img-info {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 60px;
+  background: black;
+  opacity: 0.5;
+  color: #fff;
+  font-size: 1.6rem;
+  padding-left: 2rem;
+  line-height: 6rem;
+  text-transform: uppercase;
+}
+.photo-wrapper-lovely-work {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 15px;
+}
+.photo-wrapper-lovely-work img {
+  width: 100%;
+}
+/*what we do block*/
