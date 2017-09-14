@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 /*general*/
-.clearfix {
-  clear: both;
-}
 html {
   font-size: 10px;
 }
@@ -80,7 +77,8 @@ nav {
 }
 .nav {
   padding-top: 24px;
-  height: 80px;
+  padding-bottom: 24px;
+  min-height: 80px;
   font-size: 1.8rem;
   display: flex;
   flex-direction: row;
@@ -95,12 +93,15 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: nowrap;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
 }
 .nav-menu li {
   list-style: none;
   color: #fff;
   width: 20%;
-  height: 30px;
+  min-height: 30px;
   margin-left: 1.8%;
   text-align: center;
 }
@@ -112,10 +113,10 @@ nav {
 .nav-menu li a {
   text-decoration: none;
   color: #fff;
-  line-height: 0.5rem;
 }
 .nav-menu li:hover a {
   color: #a4aead;
+  cursor: pointer;
 }
 .home {
   background: #fff;
@@ -137,7 +138,6 @@ nav {
   justify-content: center;
 }
 .article {
-  display: block;
   width: 55%;
 }
 .features {
@@ -172,8 +172,10 @@ nav {
   margin-right: 1%;
 }
 .block-article-features-text {
-  display: block;
   width: 82%;
+}
+.block-article-features-text h3 {
+  text-transform: uppercase;
 }
 .block-article-features-text p {
   display: block;
@@ -188,7 +190,7 @@ nav {
 }
 .social-btn-single {
   position: relative;
-  height: 60px;
+  min-height: 10%;
   width: 10%;
   margin-left: 0.5%;
   background: rgb(200, 205, 208);
@@ -387,7 +389,7 @@ footer {
 }
 
 /*fonts*/
-.article, .block-article-features-text, .header-text, .nav-menu, .what-we-do-blocks, .copyright {
+.article, .block-article-features-text, .header-text, .what-we-do-blocks, .copyright {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.6rem;
   line-height: 3.2rem;
