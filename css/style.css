@@ -17,7 +17,7 @@ img {
 }
 /*header*/
 .header-img {
-  min-height: 665px;
+  min-height: 500px;
   background: url(../img/bg_pic.jpg) no-repeat top;
   background-size: contain;
   display: flex;
@@ -151,7 +151,6 @@ nav {
   font-size: 3.6rem;
   text-transform: uppercase;
   margin-left: 5%;
-  margin-top: 85px;
   margin-bottom: 65px;
 }
 .block-article-features {
