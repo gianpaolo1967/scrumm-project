@@ -17,18 +17,23 @@ img {
 }
 /*header*/
 .header-img {
-  min-height: 665px;
+  min-height: 700px;
+  width: 100%;
+  padding-bottom: 5%;
   background: url(../img/bg_pic.jpg) no-repeat top;
   background-size: contain;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .header-text {
   color: #fff;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 62%;
 }
 .header-text h1 {
-  margin-bottom: 30px;
+  margin-bottom: 5%;
   font-size: 3.6rem;
   text-transform: uppercase;
 }
@@ -54,7 +59,6 @@ img {
   cursor: pointer;
 }
 .header-buttons {
-  margin-top: 45px;
   text-transform: uppercase;
   display: flex;
   flex-direction: row;
@@ -395,4 +399,11 @@ footer {
 
 .block-features h2, .article h2, .block-photo-lovely-work h2, .header-text, .block-what-we-do h2 {
   font-family: 'Quattrocento Sans', sans-serif;
+}
+
+@media all and (max-width: 1300px) {
+  /*.header-img {
+    min-height: 200px;
+  }*/
+
 }
