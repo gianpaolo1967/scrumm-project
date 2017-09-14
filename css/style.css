@@ -17,7 +17,7 @@ img {
 }
 /*header*/
 .header-img {
-  min-height: 500px;
+  min-height: 665px;
   background: url(../img/bg_pic.jpg) no-repeat top;
   background-size: contain;
   display: flex;
@@ -130,7 +130,6 @@ nav {
 
 /*article-block*/
 .section-1 {
-  margin-top: 80px;
 }
 .block-article {
   display: flex;
