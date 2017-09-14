@@ -268,17 +268,47 @@ nav {
   margin-left: 45%;
 }
 /*what we do block*/
+.block-what-we-do {
+  padding-bottom: 60px;
+  padding-top: 100px;
+}
 .what-we-do-features-wrapper {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-wrap: wrap;
+  align-content: space-between;
 }
 .what-we-do-blocks {
+  width: 24%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 90px;
+  margin-left: 1%;
+  text-align: center;
+  line-height: 3.6rem;
 }
+.what-we-do-blocks img {
+  width: 18%;
+  margin-left: 40%;
+  margin-bottom: 35px;
+}
+.what-we-do-blocks h3 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.block-what-we-do h2 {
+  font-size: 3.6rem;
+  margin-left: 5%;
+  text-transform: uppercase;
+}
+.what-we-do-blocks p {
+  opacity: 0.5;
+}
+
 
 /*features block*/
 .section-4 {
@@ -288,6 +318,7 @@ nav {
   min-height: 600px;
   margin-top: 85px;
   padding-top: 90px;
+  padding-bottom: 120px;
 }
 .block-features h2 {
   margin-left: 5%;
@@ -313,17 +344,55 @@ nav {
   margin-top: 60px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   color: #fff;
 }
 
+/*footer*/
+footer {
+  background: rgb(58, 69, 77);
+}
+.footer-wrapper {
+  padding-top: 45px;
+  min-height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.copyright {
+  margin-left: 5%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: #fff;
+}
+.social-footer {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.social-footer a {
+  width: 7%;
+  height: 25%;
+}
+.img-social-footer {
+  width: 100%;
+  height: 100%;
+}
+.img-social-footer:hover {
+  cursor: pointer;
+}
+
 /*fonts*/
-.article, .block-article-features-text, .header-text, .nav-menu {
+.article, .block-article-features-text, .header-text, .nav-menu, .what-we-do-blocks, .copyright {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.6rem;
   line-height: 3.2rem;
 }
 
-.block-features h2, .article h2, .block-photo-lovely-work h2, header-text {
+.block-features h2, .article h2, .block-photo-lovely-work h2, .header-text, .block-what-we-do h2 {
   font-family: 'Quattrocento Sans', sans-serif;
 }
